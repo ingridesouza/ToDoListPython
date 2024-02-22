@@ -1,5 +1,5 @@
 import funcoes 
-from bancoDados import lista_tarefas
+from lista import lista_tarefas
 
 controleLoop = True
 
