@@ -1,3 +1,4 @@
+#Função para criar tarefa
 def criar_tarefa(nome, descricao, prioridade, categoria, concluida=False):
     return {'Nome_Tarefa': nome,
             'Descricao_Tarefa': descricao,
@@ -6,7 +7,7 @@ def criar_tarefa(nome, descricao, prioridade, categoria, concluida=False):
             'Status_Tarefa': concluida}
     
 #-----------------------------------------------------------------------
-    
+ #Funçãp para remover tarefa
 def remover_tarefa(lista_tarefas,nome_tarefa):
     for tarefa in lista_tarefas:
      if tarefa["Nome_tarefa"] == nome_tarefa:
