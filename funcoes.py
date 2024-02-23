@@ -6,11 +6,6 @@ def criar_tarefa(nome, descricao, prioridade, categoria, concluida=False):
             'Status_Tarefa': concluida}
     
 #-----------------------------------------------------------------------
-# def adicionar_tarefa(lista_tarefas, tarefas):
-#     lista_tarefas.append(tarefas)
-#     print('Tarefa Adicionada!')
-
-#-----------------------------------------------------------------------
     
 def remover_tarefa(lista_tarefas,nome_tarefa):
     for tarefa in lista_tarefas:
