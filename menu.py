@@ -33,6 +33,7 @@ while controleLoop:
 
         case '4':
             nomeTarefaRemover = input('Digite o nome da tarefa que deseja remover:')
+            funcoes.remover_tarefa(lista_tarefas, nomeTarefaRemover)
         
         case '5':
             print('-----FILTRO DE TAREFAS-----')
